@@ -1,0 +1,57 @@
+{
+    "nav-about":"About Me",
+    "nav-services":"Services",
+    "nav-projects":"Projects",
+    "nav-contact":"Contact",
+
+    "home-wave":"HELLO THERE!",
+    "home-name":"I'm Arturo Monroy",
+    "home-ocupation":"Front-End Developer",
+    "home-place":"Based in México",
+
+    "about-header":"About Me",
+    "about-whoIm":"I'm a mechatronics engineer that found in programming a way to solve problems and to create new ways to innovate so I moved my programming robots skills to the web development. I love to learn new things and make stuff with that knowldege.",
+    "about-whereImgoing":"As a Junior Developer based in México I'm looking for remote jobs where I can offer and improve my skills to a common god as well as the possibility for a sponsorship to move to another country and get in touch with other cultures.",
+    "about-ageLabel":"Age:",
+    "about-phoneLabel":"Phone:",
+    "about-locationLabel":"Location:",
+    "about-skillsHeader":"My Technical Skills",
+    "about-techStackHeader":"Technologies that I use",
+    "about-resumeButton":"Download My Resume",
+
+    "services-header":"What I Do",
+    "services-webDev--title":"Web Development",
+    "services-webDev--description":"I specialize in front-end but also have some knowledge of back-end. That way I can make complete apps.",
+    "services-webDesign--title":"Web Design",
+    "services-webDesign--description":"Using de tech-stack that is showed above I can build your landing pages.",
+    "services-worker--title":"Worker",
+    "services-worker--description":"If you are interested on me as a worker for your company, download my resume for more info about me and contact me if you have questions.",
+    "services-innovate--title":"Innovate",
+    "services-innovate--description":"I'm always trying to fit new things I see on internet to my own style but I create my own features as well.",
+    "services-creativeDesign--title":"Creative Design",
+    "services-creativeDesign--description":"Also if I have a new idea I will try to bring it to the reality using my tech-stack and if necesary new ones.",
+    "services-quickSupport--title":"Quick Support",
+    "services-quickSupport--description":"If you're customer I'm 24/7 available for support your project.",
+
+    "projects-header":"My Recent Projects",
+    "projects-project3-name":"Task List (Front-End)",
+    "projects-project3-description":"This is a Tasks List made with the PERN stack (Postgres, Express, React.js & Node.js) styled with Material UI.",
+    "projects-project2-name":"Task List (Back-End)",
+    "projects-project2-description":"This is my API-REST for the Tasks List app. It connects to a Postgre SQL database.",
+    "projects-project1-name":"Weather App",
+    "projects-project1-description":"Ths is a Weahter app made with React.js styled with Bootstrap and it calls the Open-weather API.",
+    "projects-project0-name":"Hover Here ;)",
+    "projects-project0-description":"I'm always trying to better my skills so in the future there will be better Projects. If you have any feedback, please tell me on the contact form!",
+
+    "contact-header":"Hit Me Up!",
+
+    "projectCard-site":"Visit Site",
+    "projectCard-repo":"Visit Repo",
+
+    "contactForm-name":"Name",
+    "contactForm-email":"Email",
+    "contactForm-subject":"Subject",
+    "contactForm-message":"How can I help you?",
+    "contactForm-cantSubmit":"CAN'T SUBMIT THIS",
+    "contactForm-send":"SEND"
+}

@@ -1,0 +1,57 @@
+{
+    "nav-about":"Acerca",
+    "nav-services":"Servicios",
+    "nav-projects":"Proyectos",
+    "nav-contact":"Contacto",
+    
+    "home-wave":"¿¡QUÉ TAL!?",
+    "home-name":"Soy Arturo Monroy",
+    "home-ocupation":"Desarrollador Front-End",
+    "home-place":"Viviendo en México",
+
+    "about-header":"Acerca De Mí",
+    "about-whoIm":"Soy un ingeniero en mecatrónica que encontró en la programación una forma de resolver problemas y de crear nuevas maneras de inovar así que decidí mover mis habilidades para programar robots hacia el desarrollo web. Me encanta aprender nuevas cosas y hacer proyectos con ese conocimiento.",
+    "about-whereImgoing":"Como desarrollador junior viviendo en México busco trabajos remotos donde pueda ofrecer y mejorar mis habilidades para un bien común así como también la posibilidad de un patrocinio para trabajar en otro país y entrar en contacto con otras culturas.",
+    "about-ageLabel":"Edad:",
+    "about-phoneLabel":"Celular:",
+    "about-locationLabel":"Lugar:",
+    "about-skillsHeader":"Mis Habilidades Técnicas",
+    "about-techStackHeader":"Tecnologías Que Uso",
+    "about-resumeButton":"Descarga Mi CV",
+
+    "services-header":"Lo Que Hago",
+    "services-webDev--title":"Desarrollo Web",
+    "services-webDev--description":"Me especializo en el Front-End pero también tengo conocimientos de Back-End. De esa manera puedo construir apps completas.",
+    "services-webDesign--title":"Diseño Web",
+    "services-webDesign--description":"Usando el stack de tecnologías mostrado arriba puedo construir tus Landing Pages.",
+    "services-worker--title":"Empleado",
+    "services-worker--description":"Si estás interesado en mí como empleado para tu empresa, descarga mi CV para obtener más información sobre mí y no dudes en contactarme si tienes preguntas.",
+    "services-innovate--title":"Inovar",
+    "services-innovate--description":"Siempre trato de adaptar algunas cosas que veo en internet a mi propio estilo pero también creo mis propias funcionalidades.",
+    "services-creativeDesign--title":"Diseño Creativo",
+    "services-creativeDesign--description":"También, si tengo una nueva idea voy a tratar de traerla a la realidad usando mi stack de tecnologías y si es necesario aprendo nuevos.",
+    "services-quickSupport--title":"Soporte Inmediato",
+    "services-quickSupport--description":"Si eres cliente mío estoy disponible 24/7 para darle soporte a tu proyecto.",
+    
+    "projects-header":"Mis Proyectos Recientes",
+    "projects-project3-name":"Lista de Tareas (Front-End)",
+    "projects-project3-description":"Esta es una lista de tareas hecha con el stack PERN (Postgres, Express, React.js & Node.js) con estilos de Material UI.",
+    "projects-project2-name":"Lista de Tareas (Back-End)",
+    "projects-project2-description":"Esta es la  API-Rest para la app Lista de Tareas. Conecta a una base de datos Postgre SQL.",
+    "projects-project1-name":"App de Clima",
+    "projects-project1-description":"Esta es una app del clima construida con React.js estilizada con Bootstrap y llama a la API Open-weather.",
+    "projects-project0-name":"Hover Here ;)",
+    "projects-project0-description":"En el futuro habrá mejores proyectos. Si tienes comentarios acerca, por favor déjame saber mediante al formulario de contacto.",
+
+    "contact-header":"¡Contáctame!",
+
+    "projectCard-site":"Visitar Sitio",
+    "projectCard-repo":"Visitar Repo",
+
+    "contactForm-name":"Nombre",
+    "contactForm-email":"Email",
+    "contactForm-subject":"Asunto",
+    "contactForm-message":"¿Cómo puedo ayudarte?",
+    "contactForm-cantSubmit":"NO PUEDO ENVIAR ESTO",
+    "contactForm-send":"ENVIAR"
+}

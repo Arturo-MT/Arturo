@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  /* background: #14191f; */
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 39%, rgba(0,0,113,1) 80%, rgba(0,219,255,1) 100%);
+}
+
+#tsparticles{
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mouse-icon {
+  background: rgb(0, 0, 0) none repeat scroll 0 0;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  bottom: 30px;
+  height: 42px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 30px;
+  z-index: 2;
+}
+.mouse-icon .wheel {
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: down;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  background: #fff none repeat scroll 0 0;
+  border-radius: 10px;
+  display: block;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 4px;
+  width: 3px;
+}
+a {
+  transition: all 0.4s ease 0s;
+  color: inherit;
+}
+@keyframes down {
+  0% {
+    top: 5px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+  30% {
+    top: 15px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
 }
