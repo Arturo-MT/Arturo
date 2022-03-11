@@ -402,6 +402,7 @@ input:checked + .slider:before {
 .icon-container {
   background-color: #333;
   padding-top: 1px;
+  padding-left: 1px;
   border-radius: 5px;
   display: inline-block;
   height: 57px;
