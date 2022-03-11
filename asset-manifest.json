@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Arturo/static/css/main.d8559508.css",
-    "main.js": "/Arturo/static/js/main.74c2077c.js",
+    "main.js": "/Arturo/static/js/main.8300a3ee.js",
     "static/js/374.49e25c39.chunk.js": "/Arturo/static/js/374.49e25c39.chunk.js",
-    "static/js/646.b28fa1f7.chunk.js": "/Arturo/static/js/646.b28fa1f7.chunk.js",
+    "static/js/646.dcd2df92.chunk.js": "/Arturo/static/js/646.dcd2df92.chunk.js",
     "static/js/956.37788700.chunk.js": "/Arturo/static/js/956.37788700.chunk.js",
     "static/js/819.568cf8ef.chunk.js": "/Arturo/static/js/819.568cf8ef.chunk.js",
     "static/js/415.4d6acbeb.chunk.js": "/Arturo/static/js/415.4d6acbeb.chunk.js",
@@ -18,9 +18,9 @@
     "static/media/tasksapp.png": "/Arturo/static/media/tasksapp.a42d940c9681603abb46.png",
     "index.html": "/Arturo/index.html",
     "main.d8559508.css.map": "/Arturo/static/css/main.d8559508.css.map",
-    "main.74c2077c.js.map": "/Arturo/static/js/main.74c2077c.js.map",
+    "main.8300a3ee.js.map": "/Arturo/static/js/main.8300a3ee.js.map",
     "374.49e25c39.chunk.js.map": "/Arturo/static/js/374.49e25c39.chunk.js.map",
-    "646.b28fa1f7.chunk.js.map": "/Arturo/static/js/646.b28fa1f7.chunk.js.map",
+    "646.dcd2df92.chunk.js.map": "/Arturo/static/js/646.dcd2df92.chunk.js.map",
     "956.37788700.chunk.js.map": "/Arturo/static/js/956.37788700.chunk.js.map",
     "819.568cf8ef.chunk.js.map": "/Arturo/static/js/819.568cf8ef.chunk.js.map",
     "415.4d6acbeb.chunk.js.map": "/Arturo/static/js/415.4d6acbeb.chunk.js.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.d8559508.css",
-    "static/js/main.74c2077c.js"
+    "static/js/main.8300a3ee.js"
   ]
 }
