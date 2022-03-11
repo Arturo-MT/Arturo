@@ -16,6 +16,12 @@ function ContactForm() {
     message: "",
   });
 
+  const resetInputs = () => {
+    Array.from(document.getElementsByClassName("contact-input")).forEach(
+      (input) => (input.value = "")
+    );
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -30,17 +36,12 @@ function ContactForm() {
       const data = await res.json();
 
       console.log(data);
+      resetInputs();
       setLoading(false);
     } catch (error) {
       console.log(error);
     }
-    setMail({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
-    
+
     setLoading(false);
   };
 
