@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Arturo/static/css/main.d8559508.css",
+    "main.css": "/Arturo/static/css/main.91b3eb81.css",
     "main.js": "/Arturo/static/js/main.ff0bf362.js",
     "static/js/374.49e25c39.chunk.js": "/Arturo/static/js/374.49e25c39.chunk.js",
     "static/js/646.e5b1752c.chunk.js": "/Arturo/static/js/646.e5b1752c.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/weatherapp.png": "/Arturo/static/media/weatherapp.7f52ca3e7da88246083f.png",
     "static/media/tasksapp.png": "/Arturo/static/media/tasksapp.a42d940c9681603abb46.png",
     "index.html": "/Arturo/index.html",
-    "main.d8559508.css.map": "/Arturo/static/css/main.d8559508.css.map",
+    "main.91b3eb81.css.map": "/Arturo/static/css/main.91b3eb81.css.map",
     "main.ff0bf362.js.map": "/Arturo/static/js/main.ff0bf362.js.map",
     "374.49e25c39.chunk.js.map": "/Arturo/static/js/374.49e25c39.chunk.js.map",
     "646.e5b1752c.chunk.js.map": "/Arturo/static/js/646.e5b1752c.chunk.js.map",
@@ -31,7 +31,7 @@
     "126.437b3a07.chunk.js.map": "/Arturo/static/js/126.437b3a07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8559508.css",
+    "static/css/main.91b3eb81.css",
     "static/js/main.ff0bf362.js"
   ]
 }
