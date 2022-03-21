@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { LangProvider } from "./Context/LangContext";
-import Routes from "./routes/Routes";
+import App from "./App";
 
 ReactDOM.render(
   <LangProvider>
     <React.StrictMode>
-      <Routes />
+      <App />
     </React.StrictMode>
   </LangProvider>,
   document.getElementById("root")

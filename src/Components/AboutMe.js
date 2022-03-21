@@ -79,8 +79,9 @@ function AboutMe() {
               </div>
               <a
                 className="resume-download"
-                href="./pdf"
+                href="https://arturo-mt.github.io/Arturo/static/media/ArturoMonroyResume.56b0a47722b71effb142.pdf"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FormattedMessage id="about-resumeButton" defaultMessage="" />
               </a>
