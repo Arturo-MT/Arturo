@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { LangProvider } from "./Context/LangContext";
+import Routes from "./routes/Routes";
 
 ReactDOM.render(
   <LangProvider>
     <React.StrictMode>
-      <App />
+      <Routes />
     </React.StrictMode>
   </LangProvider>,
   document.getElementById("root")
