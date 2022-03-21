@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Arturo/static/css/main.359c1d9f.css",
-    "main.js": "/Arturo/static/js/main.074f9ffe.js",
-    "static/js/374.03a7f916.chunk.js": "/Arturo/static/js/374.03a7f916.chunk.js",
+    "main.css": "/Arturo/static/css/main.2f223b7f.css",
+    "main.js": "/Arturo/static/js/main.1ba62d8f.js",
+    "static/js/374.a60e6dc9.chunk.js": "/Arturo/static/js/374.a60e6dc9.chunk.js",
     "static/js/646.e5b1752c.chunk.js": "/Arturo/static/js/646.e5b1752c.chunk.js",
     "static/js/956.5854d4d5.chunk.js": "/Arturo/static/js/956.5854d4d5.chunk.js",
     "static/js/819.568cf8ef.chunk.js": "/Arturo/static/js/819.568cf8ef.chunk.js",
@@ -12,15 +12,14 @@
     "static/js/711.6a8ffeea.chunk.js": "/Arturo/static/js/711.6a8ffeea.chunk.js",
     "static/js/425.7a79d5e3.chunk.js": "/Arturo/static/js/425.7a79d5e3.chunk.js",
     "static/js/126.437b3a07.chunk.js": "/Arturo/static/js/126.437b3a07.chunk.js",
-    "static/media/ArturoMonroyResume.pdf": "/Arturo/static/media/ArturoMonroyResume.56b0a47722b71effb142.pdf",
     "static/media/pexels-matej-1074882.jpg": "/Arturo/static/media/pexels-matej-1074882.94ef4c8a1d3d861f0574.jpg",
     "static/media/fotolinkedin.png": "/Arturo/static/media/fotolinkedin.a04fe753a71ff9f35b1d.png",
     "static/media/weatherapp.png": "/Arturo/static/media/weatherapp.6d22e48a6c385038b842.png",
     "static/media/tasksapp.png": "/Arturo/static/media/tasksapp.3c76be5b16131dda858b.png",
     "index.html": "/Arturo/index.html",
-    "main.359c1d9f.css.map": "/Arturo/static/css/main.359c1d9f.css.map",
-    "main.074f9ffe.js.map": "/Arturo/static/js/main.074f9ffe.js.map",
-    "374.03a7f916.chunk.js.map": "/Arturo/static/js/374.03a7f916.chunk.js.map",
+    "main.2f223b7f.css.map": "/Arturo/static/css/main.2f223b7f.css.map",
+    "main.1ba62d8f.js.map": "/Arturo/static/js/main.1ba62d8f.js.map",
+    "374.a60e6dc9.chunk.js.map": "/Arturo/static/js/374.a60e6dc9.chunk.js.map",
     "646.e5b1752c.chunk.js.map": "/Arturo/static/js/646.e5b1752c.chunk.js.map",
     "956.5854d4d5.chunk.js.map": "/Arturo/static/js/956.5854d4d5.chunk.js.map",
     "819.568cf8ef.chunk.js.map": "/Arturo/static/js/819.568cf8ef.chunk.js.map",
@@ -32,7 +31,7 @@
     "126.437b3a07.chunk.js.map": "/Arturo/static/js/126.437b3a07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.359c1d9f.css",
-    "static/js/main.074f9ffe.js"
+    "static/css/main.2f223b7f.css",
+    "static/js/main.1ba62d8f.js"
   ]
 }
