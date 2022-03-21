@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arturo/static/css/main.359c1d9f.css",
-    "main.js": "/Arturo/static/js/main.074f9ffe.js",
+    "main.js": "/Arturo/static/js/main.505072af.js",
     "static/js/374.03a7f916.chunk.js": "/Arturo/static/js/374.03a7f916.chunk.js",
     "static/js/646.e5b1752c.chunk.js": "/Arturo/static/js/646.e5b1752c.chunk.js",
     "static/js/956.5854d4d5.chunk.js": "/Arturo/static/js/956.5854d4d5.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/tasksapp.png": "/Arturo/static/media/tasksapp.3c76be5b16131dda858b.png",
     "index.html": "/Arturo/index.html",
     "main.359c1d9f.css.map": "/Arturo/static/css/main.359c1d9f.css.map",
-    "main.074f9ffe.js.map": "/Arturo/static/js/main.074f9ffe.js.map",
+    "main.505072af.js.map": "/Arturo/static/js/main.505072af.js.map",
     "374.03a7f916.chunk.js.map": "/Arturo/static/js/374.03a7f916.chunk.js.map",
     "646.e5b1752c.chunk.js.map": "/Arturo/static/js/646.e5b1752c.chunk.js.map",
     "956.5854d4d5.chunk.js.map": "/Arturo/static/js/956.5854d4d5.chunk.js.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.359c1d9f.css",
-    "static/js/main.074f9ffe.js"
+    "static/js/main.505072af.js"
   ]
 }
