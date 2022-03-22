@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Arturo/static/css/main.2f223b7f.css",
-    "main.js": "/Arturo/static/js/main.ba5bff83.js",
-    "static/js/374.68efabc7.chunk.js": "/Arturo/static/js/374.68efabc7.chunk.js",
+    "main.js": "/Arturo/static/js/main.18a6ba4b.js",
+    "static/js/374.64fcfc7e.chunk.js": "/Arturo/static/js/374.64fcfc7e.chunk.js",
     "static/js/646.e5b1752c.chunk.js": "/Arturo/static/js/646.e5b1752c.chunk.js",
     "static/js/956.5854d4d5.chunk.js": "/Arturo/static/js/956.5854d4d5.chunk.js",
     "static/js/819.568cf8ef.chunk.js": "/Arturo/static/js/819.568cf8ef.chunk.js",
@@ -19,8 +19,8 @@
     "static/media/tasksapp.png": "/Arturo/static/media/tasksapp.3c76be5b16131dda858b.png",
     "index.html": "/Arturo/index.html",
     "main.2f223b7f.css.map": "/Arturo/static/css/main.2f223b7f.css.map",
-    "main.ba5bff83.js.map": "/Arturo/static/js/main.ba5bff83.js.map",
-    "374.68efabc7.chunk.js.map": "/Arturo/static/js/374.68efabc7.chunk.js.map",
+    "main.18a6ba4b.js.map": "/Arturo/static/js/main.18a6ba4b.js.map",
+    "374.64fcfc7e.chunk.js.map": "/Arturo/static/js/374.64fcfc7e.chunk.js.map",
     "646.e5b1752c.chunk.js.map": "/Arturo/static/js/646.e5b1752c.chunk.js.map",
     "956.5854d4d5.chunk.js.map": "/Arturo/static/js/956.5854d4d5.chunk.js.map",
     "819.568cf8ef.chunk.js.map": "/Arturo/static/js/819.568cf8ef.chunk.js.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.2f223b7f.css",
-    "static/js/main.ba5bff83.js"
+    "static/js/main.18a6ba4b.js"
   ]
 }
