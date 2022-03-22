@@ -9,6 +9,7 @@ import npm from "../img/npm.png";
 import postman from "../img/postman.png";
 import webpack from "../img/webpack.png";
 import SkillsContainer from "./Subcomponents/SkillsContainer";
+import pdf from "../Files/ArturoMonroyResume.pdf"
 
 function AboutMe() {
   return (
