@@ -80,7 +80,7 @@ function AboutMe() {
               </div>
               <a
                 className="resume-download"
-                href="./static/media/ArturoMonroyResume.be0a2d9edf2d95f8d3b3.pdf"
+                href="./static/media/ArturoMonroyResume.5b76bd9903560b916c22.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
