@@ -5,7 +5,6 @@ import { MdEmail } from "react-icons/md";
 import { FormattedMessage } from "react-intl";
 import fotolinkedin from "../img/fotolinkedin.png";
 import SkillsContainer from "./Subcomponents/SkillsContainer";
-import pdf from "../Files/ArturoMonroyResume.pdf";
 import TechStackContainer from "./Subcomponents/TechStackContainer";
 
 function AboutMe() {
@@ -69,7 +68,7 @@ function AboutMe() {
             <TechStackContainer/>
             <a
               className="resume-download"
-              href="./static/media/ArturoMonroyResume.5b76bd9903560b916c22.pdf"
+              href="./Resume.pdf"
               target="_blank"
               rel="noreferrer"
             >
