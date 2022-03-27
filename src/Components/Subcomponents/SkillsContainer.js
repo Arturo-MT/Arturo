@@ -1,45 +1,68 @@
 import React from "react";
-import ProgressBar from "./ProgressBar";
+import IconContainer from "./IconContainer";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaNodeJs,
+  FaBootstrap,
+} from "react-icons/fa";
+import { DiJavascript1, DiPostgresql } from "react-icons/di";
+import {
+  SiMaterialui,
+  SiTailwindcss,
+  SiCplusplus,
+  SiTypescript,
+  SiArduino,
+  SiReactrouter,
+} from "react-icons/si";
 
 function SkillsContainer() {
   return (
-    <div id="skillsContainer" className="skills-container grid grid-cols-2">
-      <div className="text-700 text-white text-base mt-6 text-center">
-        HTML, CSS & JavaScript
-        <ProgressBar
-          width="300"
-          percent="80"
-          color="linear-gradient(90deg, rgba(242,62,22,1) 8%, rgba(3,103,166,1) 50%, rgba(217,164,4,1) 92%)"
-        />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        React
-        <ProgressBar width="300" percent="50" color="#61DBFB" />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        Node.js
-        <ProgressBar width="300" percent="60" color="#3c873a" />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        API-REST
-        <ProgressBar width="300" percent="60" color="#4000b8" />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        PostgreSQL
-        <ProgressBar width="300" percent="40" color="#008bb9" />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        Bootstrap
-        <ProgressBar width="300" percent="40" color="#563d7c" />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        MaterialUI
-        <ProgressBar width="300" percent="60" color="#0031b8" />
-      </div>
-      <div className="text-700 text-white text-base mt-6 text-center">
-        Tailwind
-        <ProgressBar width="300" percent="50" color="#42cbf5" />
-      </div>
+    <div
+      id="skillsContainer"
+      className="skills-container grid grid-cols-7 justify-items-center"
+    >
+      <IconContainer>
+        <FaHtml5 size={50} />
+      </IconContainer>
+      <IconContainer>
+        <FaCss3Alt size={50} />
+      </IconContainer>
+      <IconContainer>
+        <DiJavascript1 size={50} />
+      </IconContainer>
+      <IconContainer>
+        <FaReact size={50} />
+      </IconContainer>
+      <IconContainer>
+        <FaNodeJs size={50} />
+      </IconContainer>
+      <IconContainer>
+        <DiPostgresql size={50} />
+      </IconContainer>
+      <IconContainer>
+        <FaBootstrap size={50} />
+      </IconContainer>
+      <IconContainer>
+        <SiMaterialui size={49} />
+      </IconContainer>
+      <IconContainer>
+        <SiTailwindcss size={49} />
+      </IconContainer>
+      <IconContainer>API's</IconContainer>
+      <IconContainer>
+        <SiCplusplus size={50} />
+      </IconContainer>
+      <IconContainer>
+        <SiTypescript size={49} />
+      </IconContainer>
+      <IconContainer>
+        <SiArduino size={49} />
+      </IconContainer>
+      <IconContainer>
+        <SiReactrouter size={50} />
+      </IconContainer>
     </div>
   );
 }
