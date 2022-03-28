@@ -68,7 +68,7 @@ function AboutMe() {
             <TechStackContainer/>
             <a
               className="resume-download"
-              href="./Resume.pdf"
+              href="./ResumeCV.pdf"
               target="_blank"
               rel="noreferrer"
             >
