@@ -17,7 +17,7 @@ function ContactLinks() {
         <IconLink link="https://github.com/Arturo-MT">
           <FaGithub size={50} />
         </IconLink>
-        <IconLink link="https://www.linkedin.com/in/brian-monroy-torrez-99544620a/">
+        <IconLink link="https://www.linkedin.com/in/brian-mt/">
           <FaLinkedinIn size={50} />
         </IconLink>
         <IconLink link="https://www.facebook.com/brianarturom">
