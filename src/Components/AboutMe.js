@@ -3,7 +3,6 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FormattedMessage } from "react-intl";
-import fotolinkedin from "../img/fotolinkedin.png";
 import SkillsContainer from "./Subcomponents/SkillsContainer";
 import TechStackContainer from "./Subcomponents/TechStackContainer";
 
@@ -15,7 +14,6 @@ function AboutMe() {
       </h2>
       <div className="aboutme mx-auto max-w-5xl rounded px-8 phone:px-16 pt-8 pb-4 backdrop-blur-xl bg-black/40">
         <div className="perfil mx-auto mb-8">
-          <img src={fotolinkedin} alt="" />
         </div>
         <div className="font-bold text-white text-2xl mb-2">
           Brian Arturo Monroy Torrez
