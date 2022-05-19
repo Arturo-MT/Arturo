@@ -1,18 +1,18 @@
-import React from "react";
-import { Link } from "react-scroll";
-import { FaBars, FaTimes } from "react-icons/fa";
-import ResponsiveMenu from "./ResponsiveMenu";
+import React from 'react'
+import { Link } from 'react-scroll'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import ResponsiveMenu from './ResponsiveMenu'
 
-function ResponsiveNav() {
+function ResponsiveNav () {
   const handleMenu = () => {
-    const menu = document.getElementById("menu-responsive");
-    const close = document.getElementById("close");
-    const bars = document.getElementById("bars");
+    const menu = document.getElementById('menu-responsive')
+    const close = document.getElementById('close')
+    const bars = document.getElementById('bars')
 
-    close.classList.toggle("close");
-    bars.classList.toggle("open");
-    menu.classList.toggle("actived-menu");
-  };
+    close.classList.toggle('close')
+    bars.classList.toggle('open')
+    menu.classList.toggle('actived-menu')
+  }
 
   return (
     <div className="navbar-responsive flex pr-4 items-center justify-between h-20 w-full m-0 top-0 fixed bg-black/40 backdrop-blur-md">
@@ -45,7 +45,7 @@ function ResponsiveNav() {
       </div>
       <ResponsiveMenu />
     </div>
-  );
+  )
 }
 
-export default ResponsiveNav;
+export default ResponsiveNav

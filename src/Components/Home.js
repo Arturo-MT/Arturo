@@ -1,17 +1,17 @@
-import React, { useContext, useEffect, useState } from "react";
-import { FormattedMessage } from "react-intl";
-import { Link } from "react-scroll";
-import "../App.css";
-import { langContext } from "../Context/LangContext";
-import Switch from "./Subcomponents/Switch";
+import React, { useContext, useEffect, useState } from 'react'
+import { FormattedMessage } from 'react-intl'
+import { Link } from 'react-scroll'
+import '../App.css'
+import { langContext } from '../Context/LangContext'
+import Switch from './Subcomponents/Switch'
 
-function Home() {
-  const language = useContext(langContext);
+function Home () {
+  const language = useContext(langContext)
 
-  const [isToggled, setIsToggled] = useState(false);
+  const [isToggled, setIsToggled] = useState(false)
 
-  useEffect(()=>{
-    isToggled ? language.setLanguage("es-MX") : language.setLanguage("en-US");
+  useEffect(() => {
+    isToggled ? language.setLanguage('es-MX') : language.setLanguage('en-US')
   })
 
   return (
@@ -44,7 +44,7 @@ function Home() {
         <span className="wheel"></span>
       </Link>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

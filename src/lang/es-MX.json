@@ -34,6 +34,8 @@
     "services-quickSupport--description":"Si eres cliente mío estoy disponible 24/7 para darle soporte a tu proyecto.",
     
     "projects-header":"Mis Proyectos Recientes",
+    "projects-project4-name":"Web Choice Awards",
+    "projects-project4-description":"Web de premios para la categoría de anime. App creada con React, uso de estado global y hooks",
     "projects-project3-name":"Lista de Tareas (Front-End)",
     "projects-project3-description":"Esta es una lista de tareas hecha con el stack PERN (Postgres, Express, React.js & Node.js) con estilos de Material UI.",
     "projects-project2-name":"Lista de Tareas (Back-End)",

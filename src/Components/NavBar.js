@@ -1,9 +1,9 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
-import { Link } from "react-scroll";
-import "../App.css";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import { Link } from 'react-scroll'
+import '../App.css'
 
-function NavBar() {
+function NavBar () {
   return (
       <div className="navbar flex items-center justify-between h-20 w-full m-0 top-0 fixed bg-black/40 backdrop-blur-md">
         <Link
@@ -73,7 +73,7 @@ function NavBar() {
           </div>
         </div>
       </div>
-  );
+  )
 }
 
-export default NavBar;
+export default NavBar

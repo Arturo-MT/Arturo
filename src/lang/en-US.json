@@ -34,6 +34,8 @@
     "services-quickSupport--description":"If you're customer I'm 24/7 available for support your project.",
 
     "projects-header":"My Recent Projects",
+    "projects-project4-name":"Web Choice Awards",
+    "projects-project4-description":"A website for the Web Choice Awards. App developed in ReactJS, using global context and hooks.",
     "projects-project3-name":"Task List (Front-End)",
     "projects-project3-description":"This is a Tasks List made with the PERN stack (Postgres, Express, React.js & Node.js) styled with Material UI.",
     "projects-project2-name":"Task List (Back-End)",

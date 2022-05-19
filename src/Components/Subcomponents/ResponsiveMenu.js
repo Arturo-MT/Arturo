@@ -1,17 +1,17 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
-import { Link } from "react-scroll";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import { Link } from 'react-scroll'
 
-function ResponsiveMenu() {
+function ResponsiveMenu () {
   const handleMenu = () => {
-    const menu = document.getElementById("menu-responsive");
-    const close = document.getElementById("close");
-    const bars = document.getElementById("bars");
+    const menu = document.getElementById('menu-responsive')
+    const close = document.getElementById('close')
+    const bars = document.getElementById('bars')
 
-    close.classList.toggle("close");
-    bars.classList.toggle("open");
-    menu.classList.toggle("actived-menu");
-  };
+    close.classList.toggle('close')
+    bars.classList.toggle('open')
+    menu.classList.toggle('actived-menu')
+  }
 
   return (
     <div id="menu-responsive" className="flex flex-col menu-responsive p-2 ">
@@ -72,7 +72,7 @@ function ResponsiveMenu() {
           </Link>
         </div>
     </div>
-  );
+  )
 }
 
-export default ResponsiveMenu;
+export default ResponsiveMenu

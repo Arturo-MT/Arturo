@@ -1,12 +1,12 @@
-import React from "react";
-import { BsFillPersonFill } from "react-icons/bs";
-import { FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FormattedMessage } from "react-intl";
-import SkillsContainer from "./Subcomponents/SkillsContainer";
-import TechStackContainer from "./Subcomponents/TechStackContainer";
+import React from 'react'
+import { BsFillPersonFill } from 'react-icons/bs'
+import { FaMapMarkedAlt, FaPhoneAlt } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
+import { FormattedMessage } from 'react-intl'
+import SkillsContainer from './Subcomponents/SkillsContainer'
+import TechStackContainer from './Subcomponents/TechStackContainer'
 
-function AboutMe() {
+function AboutMe () {
   return (
     <div id="aboutme" className="mt-24">
       <h2 className="divideH2 my-8 text-3xl text-white font-bold text-center relative">
@@ -76,7 +76,7 @@ function AboutMe() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default AboutMe;
+export default AboutMe

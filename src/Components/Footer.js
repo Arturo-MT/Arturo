@@ -1,7 +1,7 @@
-import React from "react";
-import { AiFillCopyrightCircle } from "react-icons/ai";
+import React from 'react'
+import { AiFillCopyrightCircle } from 'react-icons/ai'
 
-function Footer() {
+function Footer () {
   return (
     <div className="w-screen h-32 bg-black/40 mb-0 backdrop-blur-md p-8">
       <div className="text-white text-lg text-center">
@@ -19,7 +19,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

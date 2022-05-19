@@ -1,13 +1,13 @@
-import React from "react";
-import { FaLaptopCode, FaPaintBrush } from "react-icons/fa";
+import React from 'react'
+import { FaLaptopCode, FaPaintBrush } from 'react-icons/fa'
 import {
   MdDesignServices, MdOutlineSupport, MdOutlineWork
-} from "react-icons/md";
-import { RiSpaceShipFill } from "react-icons/ri";
-import { FormattedMessage } from "react-intl";
-import WhatIDoCard from "./Subcomponents/WhatIDoCard";
+} from 'react-icons/md'
+import { RiSpaceShipFill } from 'react-icons/ri'
+import { FormattedMessage } from 'react-intl'
+import WhatIDoCard from './Subcomponents/WhatIDoCard'
 
-function Services() {
+function Services () {
   return (
     <div id="services" className="mt-24">
         <h2 className="divideH2 my-8 text-3xl text-white font-bold text-center relative">
@@ -114,7 +114,7 @@ function Services() {
           </div>
         </div>
     </div>
-  );
+  )
 }
 
-export default Services;
+export default Services

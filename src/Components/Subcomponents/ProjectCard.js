@@ -1,12 +1,15 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
-import "../../App.css";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import '../../App.css'
+import PropTypes from 'prop-types'
 
-function ProjectCard({ image, name, description, site, github }) {
-  if (site && github) {
-    var style = {};
-  } else {
-    style = { pointerEvents: "none", visibility: "hidden" };
+function ProjectCard (props) {
+  ProjectCard.propTypes = {
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    site: PropTypes.string,
+    github: PropTypes.string
   }
 
   return (
@@ -14,25 +17,27 @@ function ProjectCard({ image, name, description, site, github }) {
       <div
         className="face face1"
         style={{
-          background: image ? `url(${image})` : "#333",
-          backgroundSize: "18.75rem 12.5rem",
-          backgroundRepeat: "no-repeat",
+          background: props.image ? `url(${props.image})` : '#333',
+          backgroundSize: '340px',
+          backgroundPosition: 'content-box',
+          backgroundRepeat: 'no-repeat',
+          backgroundFilter: 'blur(2px)'
         }}
       >
         <div className="content">
-          <p className="title text-2xl font-extrabold">{name}</p>
+          <p className="title text-2xl text-black font-extrabold">{props.name}</p>
         </div>
       </div>
       <div className="face face2 backdrop-blur-md bg-black/40">
         <div className="content">
-          <p className="desc text-justify text-lg font-bold ">{description}</p>
+          <p className="desc text-justify text-lg font-bold ">{props.description}</p>
           <div className="flex justify-between">
               <a
                 className="text-base"
                 target="_blank"
                 rel="noreferrer"
-                href={site}
-                style={style}
+                href={props.site}
+                style={props.site ? {} : { visibility: 'hidden' }}
               >
                 <FormattedMessage id="projectCard-site" defaultMessage="" />
               </a>
@@ -40,8 +45,8 @@ function ProjectCard({ image, name, description, site, github }) {
                 className="text-base"
                 target="_blank"
                 rel="noreferrer"
-                href={github}
-                style={style}
+                href={props.github}
+                style={props.github ? {} : { visibility: 'hidden' }}
               >
                 <FormattedMessage id="projectCard-repo" defaultMessage="" />
               </a>
@@ -49,7 +54,7 @@ function ProjectCard({ image, name, description, site, github }) {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProjectCard;
+export default ProjectCard

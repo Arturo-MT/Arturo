@@ -1,49 +1,51 @@
-import React, { useState } from "react";
-import { BiMailSend } from "react-icons/bi";
-import { FormattedMessage } from "react-intl";
+import React, { useEffect, useState } from 'react'
+import { BiMailSend } from 'react-icons/bi'
+import { FormattedMessage } from 'react-intl'
 
-function ContactForm() {
-  const [loading, setLoading] = useState(false);
+function ContactForm () {
+  const [loading, setLoading] = useState(false)
 
   const handleChange = (e) => {
-    setMail({ ...mail, [e.target.name]: e.target.value });
-  };
+    setMail({ ...mail, [e.target.name]: e.target.value })
+  }
 
   const [mail, setMail] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  })
 
   const resetInputs = () => {
-    Array.from(document.getElementsByClassName("contact-input")).forEach(
-      (input) => (input.value = "")
-    );
-  };
+    Array.from(document.getElementsByClassName('contact-input')).forEach(
+      (input) => (input.value = '')
+    )
+  }
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
+    e.preventDefault()
+    setLoading(true)
 
     try {
-      const res = await fetch("https://mailer-portfolio.herokuapp.com", {
-        method: "POST",
-        body: JSON.stringify(mail),
-        headers: { "Content-Type": "application/json" },
-      });
+      useEffect(async () => {
+        const res = await fetch('https://mailer-portfolio.herokuapp.com', {
+          method: 'POST',
+          body: JSON.stringify(mail),
+          headers: { 'Content-Type': 'application/json' }
+        })
 
-      const data = await res.json();
+        const data = await res.json()
 
-      console.log(data);
-      resetInputs();
-      setLoading(false);
+        console.log(data)
+        resetInputs()
+        setLoading(false)
+      }, [])
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
 
-    setLoading(false);
-  };
+    setLoading(false)
+  }
 
   return (
     <form
@@ -103,30 +105,34 @@ function ContactForm() {
           disabled={!mail.name || !mail.email || !mail.message}
         >
           <div>
-            {loading ? (
+            {loading
+              ? (
               <span className="loader mx-auto" />
-            ) : (
+                )
+              : (
               <div className="alt-send-button text-white text-xl font-bold">
                 <div className="mx-auto w-7">
                   <BiMailSend size={30} />
                 </div>
                 <span className="send-text">
-                  {!mail.name || !mail.email || !mail.message ? (
+                  {!mail.name || !mail.email || !mail.message
+                    ? (
                     <FormattedMessage
                       id="contactForm-cantSubmit"
                       defaultMessage=""
                     />
-                  ) : (
+                      )
+                    : (
                     <FormattedMessage id="contactForm-send" defaultMessage="" />
-                  )}
+                      )}
                 </span>
               </div>
-            )}
+                )}
           </div>
         </button>
       </div>
     </form>
-  );
+  )
 }
 
-export default ContactForm;
+export default ContactForm

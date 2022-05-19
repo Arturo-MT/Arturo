@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
-import IconContainer from "./IconContainer";
-import { SiWebpack, SiPostman, SiVisualstudiocode, SiWindows } from "react-icons/si";
-import { FaGitAlt, FaNpm } from "react-icons/fa";
+import IconContainer from './IconContainer'
+import { SiWebpack, SiPostman, SiVisualstudiocode, SiWindows } from 'react-icons/si'
+import { FaGitAlt, FaNpm } from 'react-icons/fa'
 
-function TechStackContainer() {
+function TechStackContainer () {
   return (
     <div className="tech-container grid grid-cols-6 justify-items-center">
       <IconContainer>
@@ -26,7 +26,7 @@ function TechStackContainer() {
         <SiWindows size={49} />
       </IconContainer>
     </div>
-  );
+  )
 }
 
-export default TechStackContainer;
+export default TechStackContainer

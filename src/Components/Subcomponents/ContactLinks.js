@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import {
   FaFacebookF,
   FaGithub,
@@ -6,11 +6,11 @@ import {
   FaInstagram,
   FaWhatsapp,
   FaMapMarkedAlt
-} from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import IconLink from "./IconLink";
+} from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
+import IconLink from './IconLink'
 
-function ContactLinks() {
+function ContactLinks () {
   return (
     <div className="contact-links mx-auto mb-8 w-96 max-w-lg rounded px-6 pt-12 pb-4 backdrop-blur-md bg-black/40">
       <div className="links-container grid grid-cols-4 justify-items-center  mx-auto text-white">
@@ -46,7 +46,7 @@ function ContactLinks() {
               </div>
             </div>
     </div>
-  );
+  )
 }
 
-export default ContactLinks;
+export default ContactLinks

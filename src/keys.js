@@ -1,3 +1,3 @@
-const URL = "http://localhost:4000";
+const URL = 'http://localhost:4000'
 
-module.exports = URL;
+module.exports = URL
