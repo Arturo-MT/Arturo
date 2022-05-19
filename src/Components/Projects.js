@@ -1,17 +1,32 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
-import "../App.css";
-import tasksapp from "../img/tasksapp.png";
-import weatherapp from "../img/weatherapp.png";
-import ProjectCard from "./Subcomponents/ProjectCard";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
+import '../App.css'
+import tasksapp from '../img/tasksapp.png'
+import weatherapp from '../img/weatherapp.png'
+import webchoiceawards from '../img/webchoiceawards.png'
+import ProjectCard from './Subcomponents/ProjectCard'
 
-function Projects() {
+function Projects () {
   return (
     <div id="projects" className=" mt-24 ">
         <h2 className="divideH2 text-3xl text-white font-bold text-center relative">
           <FormattedMessage id="projects-header" defaultMessage="" />
         </h2>
         <div className="container grid-cols-3">
+        <ProjectCard
+            name={
+              <FormattedMessage id="projects-project4-name" defaultMessage="" />
+            }
+            description={
+              <FormattedMessage
+                id="projects-project4-description"
+                defaultMessage=""
+              />
+            }
+            site="https://arturo-mt.github.io/front-end-sample-project/"
+            github="https://github.com/Arturo-MT/front-end-sample-project"
+            image={webchoiceawards}
+          />
           <ProjectCard
             name={
               <FormattedMessage id="projects-project3-name" defaultMessage="" />
@@ -67,7 +82,7 @@ function Projects() {
           />
         </div>
     </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
